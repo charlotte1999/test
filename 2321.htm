@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <h1>何世英婦產科初診</h1>
+    <table border="2">
+        <tr>
+            <td>
+                <form>
+                    姓名<input type="text" name="欄位名稱">
+                </form>
+            </td>
+            <td>
+                <form>
+                    手機號碼<input type="text" name="欄位名稱">
+                </form>
+            </td>
+            <td>
+                <form>
+                    生日<input type="text" name="欄位名稱">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                    職業<input type="text" name="欄位名稱">
+                </form>
+            </td>
+            <td>
+                <form>
+                    身分證字號<input type="text" name="欄位名稱">
+                </form>
+            </td>
+            <td>
+                <form>
+                    住址<input type="text" name="欄位名稱">
+                </form>
+            </td>
+        </tr>
+    </table>
+    <form>
+        <p align=left>
+            看診原因(可複選):<br>
+            <input type="checkbox" name="Interest"> 白帶多
+            <input type="checkbox" name="Interest"> 會癢
+            <input type="checkbox" name="Interest"> 下腹痛
+            <input type="checkbox" name="Interest"> 出血
+            <input type="checkbox" name="Interest"> 小便疼痛
+            <input type="checkbox" name="Interest"> 頻尿
+            <input type="checkbox" name="Interest"> 驗孕
+            <input type="checkbox" name="Interest"> 產前檢查<br>
+            <input type="checkbox" name="Interest"> 子宮頸癌病毒(20歲前有性行為者)
+            <input type="checkbox" name="Interest"> 月經調整<br>
+            <input type="checkbox" name="Interest"> 抹片檢查(健保給付但須30歲以上)
+            <input type="checkbox" name="Interest"> 咨詢(尋問醫生意見)<br>
+            <input type="checkbox" name="Interest"> 其它<form>
+                <input type="text" name="欄位名稱">
+            </form>
+<p align=left>
+            即使有須要接不接受內診:<br>
+            <select name="YourLocation">
+                <option value="yes">接受</option>
+                <option value="no">不接受</option>
+            </select>
+        <p align=left>1.<font color="#FF0000">從來沒有性經驗不可接受內診</font><br>
+        <p align=left>2.<font color="#FF0000">請不要上廁所以免無法驗尿或照超音波</font><br>
+        <p align=left>已經來過的最近一次月經<input type="text" name="欄位名稱"><input type="checkbox" name="Interest"> 停經
+        <p align=left>
+            請問是否有過性經驗:<br>
+            <select name="YourLocation">
+                <option value="yes">有</option>
+                <option value="no">從來沒有</option>
+            </select>
+        <p align=left>
+            最近2星期有無性行為:<br>
+            <select name="YourLocation">
+                <option value="yes">有</option>
+                <option value="no">沒有</option>
+            </select>
+        <p align=left>
+            現有無婚姻觀係:<br>
+            <select name="YourLocation">
+                <option value="yes">有</option>
+                <option value="no">沒有</option>
+            </select>
+        <p align=left>
+            生育經驗(可複選):<br>
+            <input type="checkbox" name="Interest"> 有
+            <input type="checkbox" name="Interest"> 自然生產
+            <input type="checkbox" name="Interest"> 剖腹生產
+            <input type="checkbox" name="Interest"> 沒有
+    </form>
+    <p align=left>
+        最近若有生育的可能,想生下來嗎:<br>
+        <select name="YourLocation">
+            <option value="yes">想</option>
+            <option value="no">不想</option>
+        </select>
+    <p align=left>
+        現在有無懷孕:<br>
+        <select name="YourLocation">
+            <option value="yes">有</option>
+            <option value="no">沒有</option>
+        </select>
+    <p align=left>
+        藥物過敏:<br>
+        <select name="YourLocation">
+            <option value="yes">有</option>
+            <option value="no">沒有</option>
+        </select>
+    <p align=left>
+        平常有無服用任何藥物:<br>
+        <select name="YourLocation">
+            <option value="yes">有</option>
+            <option value="no">沒有</option>
+        </select>
+    <p align=left>
+        有無因病須常常不定期看診或住院之經歷:<br>
+        <input type="checkbox" name="Interest">有<br>
+        <form>
+    <p align=left>
+        <input type="text" name="欄位名稱">
+        </form>
+    <p align=left><input type="checkbox" name="Interest"> 沒有
+    <p align=left>
+        曾經開過什麼刀做過何種手術:<br>
+        <input type="checkbox" name="Interest">有<br>
+        <form>
+    <p align=left>
+        <input type="text" name="欄位名稱">
+        </form>
+    <p align=left>
+        <input type="checkbox" name="Interest"> 沒有
+        <form action="test.php" method="post">
+            <input type="submit" value="送出">
+</body>
+</html>
